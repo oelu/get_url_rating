@@ -27,7 +27,7 @@ def get_fortiguard_rating_for_url(url):
     page = requests.get(fortiguardurl, params=query)
     tree = html.fromstring(page.text)
 
-    # if you need to asjust the xpath, folow the following structure
+    # if you need to adjust the xpath:
     # google chrome -> open website -> inspect element -> right click
     # copy xpath
     rating = tree.xpath('//*[@id="content_wrapper"]/h3/text()')
