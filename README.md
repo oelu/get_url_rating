@@ -3,6 +3,8 @@ Script to fetch the url rating from www.fortiguard.com
 
 ## Requirements
 * Requires Python docopt module
+* Requires Python lxml module
+* Requires Python requests module
 
 ## Usage
 
