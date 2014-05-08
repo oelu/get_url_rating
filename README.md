@@ -11,7 +11,7 @@ Script to fetch the url rating from www.fortiguard.com
     Fortiguard URL Rating
         Retrieves the Fortiguard Rating for url
         Usage:
-        get_url_rating2.py (-u <url> | --url <url>)
+        get_url_rating.py (-u <url> | --url <url>)
 
 ## Example Session
 
