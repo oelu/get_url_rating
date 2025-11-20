@@ -1,4 +1,4 @@
-# URL Scraper
+# Get URL Rating
 
 A Python script that extracts all URLs from a given webpage using requests and BeautifulSoup, with optional security scanning via VirusTotal and URLhaus.
 
